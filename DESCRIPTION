@@ -1,0 +1,13 @@
+Package: notaR
+Title: Um Sistema Para Notas Automatizadas Em Cursos Que Utilizam A Linguagem R
+Version: 0.0.1
+Authors@R: person("Andre", "Chalom", email = "andrechalom@gmail.com", role = c("aut", "cre"))
+Description: Um pacote para realizar a correção de exercícios do sistema notaR.
+Depends: R (>= 3.0.0),
+         RMySQL
+Suggests: testthat,
+          Rserve
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
