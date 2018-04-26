@@ -4,7 +4,11 @@ Version: 0.0.1
 Authors@R: person("Andre", "Chalom", email = "andrechalom@gmail.com", role = c("aut", "cre"))
 Description: Um pacote para realizar a correção de exercícios do sistema notaR.
 Depends: R (>= 3.0.0),
-         RMySQL
+         RMySQL,
+         DBI,
+         grDevices,
+         graphics,
+         stats
 Suggests: testthat,
           Rserve
 License: GPL-3
